@@ -41,8 +41,6 @@
   font-display: swap;
 }
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -69,6 +67,8 @@ a {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  position: absolute;
+  width: 100%;
 }
 
 .nav__list {
@@ -91,6 +91,48 @@ a {
 }
 .nav__link:focus {
   color: #63cdcf;
+}
+
+.offer {
+  padding-top: 241px;
+  padding-bottom: 161px;
+  background-image: url("../img/photo to main offer.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.offer__title {
+  max-width: 454px;
+  font-size: 48px;
+  line-height: 1.5;
+  margin: 0 0 55px;
+}
+.offer__desc {
+  font-size: 24px;
+  line-height: 1.5;
+  max-width: 325px;
+  margin: 0 0 55px;
+}
+
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background: #2d5e5e;
+  border-radius: 10px;
+  padding: 8px 42px;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.btn:hover, .btnfocus {
+  opacity: 0.7;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */

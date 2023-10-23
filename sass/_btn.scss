@@ -1,0 +1,20 @@
+.btn {
+  text-transform: uppercase;
+  border: none;
+  background: #2d5e5e;
+  border-radius: 10px;
+  padding: 8px 42px;
+  white-space: nowrap;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+  &:hover,
+  &focus {
+    opacity: .7;
+  }
+}
