@@ -502,8 +502,8 @@ template {
 }
 
 .about__btn.two {
+  border: 3px solid #2d5e5e;
   border-radius: 10px;
-  border-color: #2d5e5e;
   background-color: rgba(28, 28, 28, 0);
 }
 
