@@ -469,4 +469,42 @@ template {
   line-height: 1.5;
 }
 
+.about {
+  background-image: url(../img/rectangle.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.about__title {
+  font-size: 36px;
+  margin-left: 265px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.about__desc {
+  margin-left: 265px;
+  max-width: 625px;
+  margin-bottom: -265px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.about__photo {
+  margin-left: 100px;
+}
+.about__btn {
+  margin-left: 265px;
+  margin-bottom: 62px;
+}
+
+.about__btn.three {
+  margin-left: 50px;
+}
+
+.about__btn.two {
+  border-radius: 10px;
+  border-color: #2d5e5e;
+  background-color: rgba(28, 28, 28, 0);
+}
+
 /*# sourceMappingURL=style.css.map */
