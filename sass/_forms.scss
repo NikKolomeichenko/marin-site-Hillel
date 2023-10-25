@@ -1,0 +1,61 @@
+.forms {
+  display: grid;
+  grid-template-columns: 370px 370px;
+  grid-template-rows: 40px 40px 40px;
+  gap: 35px;
+  margin-left: -110px;
+
+}
+
+.forms__item.two {
+  grid-row: 3/4;
+
+}
+
+.forms__item__input_4 {
+
+}
+
+.width {
+  width: 370px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+
+h4 {
+  margin-left: 370px;
+  font-size: 48px;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+input {
+  height: 40px;
+  text-align: start;
+}
+
+select {
+  height: 40px;
+}
+
+span {
+  font-size: 12px;
+  font-weight: 500;
+
+
+}
+.confirm {
+  margin-left: 80px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: #2d5e5e;
+}
+
+.send {
+margin-left: 450px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
